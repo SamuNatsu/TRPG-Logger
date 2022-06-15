@@ -2,7 +2,7 @@
 A tool that used for making TRPG dialog file
 # Feature
 1. No building or compiling, the only thing you need is a browser(Chrome, Edge etc.)
-2. HTML5 + JavaScript, easy to use
+2. HTML5 + JavaScript, you can use it online or offline
 # Usage
 1. Download the whole repo
 2. Click "index.html"
