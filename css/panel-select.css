@@ -1,0 +1,18 @@
+#panel-select-in-1 {
+    border: 2px dashed gray;
+    padding: 20px;
+}
+
+#panel-select-text-1 {
+    color: red;
+    font-weight: bold;
+}
+
+#panel-select-box-1,
+#panel-select-box-2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+    text-align: center;
+}

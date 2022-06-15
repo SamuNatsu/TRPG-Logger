@@ -1,0 +1,7 @@
+#panel-main-box-1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TRPG Renderer</title>
+    <link rel="stylesheet" href="css/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body><div id="app">
+    <!-- Wait page -->
+    <div id="page-wait" style="display:none"><div id="page-wait-text"></div></div>
+    <!-- Main -->
+    <div id="panel-main" class="panel">
+        <!-- Title -->
+        <div class="panel-title">TRPG Logger</div>
+        <hr/>
+        <!-- Menu -->
+        <div id="panel-main-box-1">
+            <div id="panel-main-btn-1" class="button-30">New</div>
+            <div id="panel-main-btn-2" class="button-30">Open</div>
+        </div>
+        <!-- Footer -->
+        <div class="panel-footer"><i>Made by Rainiar</i></div>
+        <!-- Stylesheet & script -->
+        <link rel="stylesheet" href="css/panel-main.css"/>
+        <script src="js/panel-main.js" defer></script>
+    </div>
+    <!-- Select -->
+    <div id="panel-select" class="panel" style="display:none">
+        <!-- Title -->
+        <div class="panel-title">TRPG Logger - Open</div>
+        <hr/>
+        <!-- Warning text -->
+        <div id="panel-select-text-1"></div>
+        <!-- File input -->
+        <div id="panel-select-box-1"></div>
+        <!-- Menu -->
+        <div id="panel-select-box-2">
+            <div id="panel-select-btn-1" class="button-30">Back</div>
+            <div id="panel-select-btn-2" class="button-30">Open</div>
+        </div>
+        <!-- Footer -->
+        <div class="panel-footer"><i>Made by Rainiar</i></div>
+        <!-- Stylesheet & script -->
+        <link rel="stylesheet" href="css/panel-select.css"/>
+        <script src="js/panel-select.js" defer></script>
+    </div>
+    <!-- Editor -->
+    <div id="panel-editor" class="panel" style="display:none">
+        <!-- Dialog display area -->
+        <div id="panel-editor-part-1" class="scroll--simple"></div>
+        <!-- Spliter -->
+        <div id="panel-editor-split"></div>
+        <!-- Control panel -->
+        <div id="panel-editor-part-2">
+            <!-- Title -->
+            <div class="panel-title">TRPG Logger - Editor</div>
+            <hr/>
+            <!-- Dialog title -->
+            <div class="panel-editor-label">Title</div>
+            <input id="panel-editor-title" class="panel-editor-input" type="text"/>
+            <hr/>
+            <!-- Character name -->
+            <div class="panel-editor-label">Character</div>
+            <input id="panel-editor-character" class="panel-editor-input" type="text"/>
+            <!-- Dialog text -->
+            <div class="panel-editor-label">Dialog</div>
+            <textarea id="panel-editor-dialog" class="panel-editor-textarea"></textarea>
+            <!-- Add dialog button -->
+            <div id="panel-editor-box-2">
+                <div id="panel-editor-btn-1" class="button-30">Add dialog</div>
+            </div>
+            <!-- Last save time -->
+            <div id="panel-editor-time" class="panel-footer"></div>
+            <hr/>
+            <!-- Menu -->
+            <div id="panel-editor-box-3">
+                <div id="panel-editor-btn-2" class="button-30">Back</div>
+                <div id="panel-editor-btn-3" class="button-30">Save</div>
+            </div>
+            <!-- Footer -->
+            <div class="panel-footer"><i>Made by Rainiar</i></div>
+        </div>
+        <!-- Stylesheet & script -->
+        <link rel="stylesheet" href="css/panel-editor.css"/>
+        <script src="js/panel-editor.js" defer></script>
+    </div>
+    <!-- Script -->
+    <script src="js/script.js" defer></script>
+</div></body>
+</html>

@@ -1,0 +1,84 @@
+#panel-editor {
+	display: flex;
+	height: 80%;
+	width: 80%;
+}
+
+#panel-editor-part-1 {
+	border: 2px dashed black;
+	padding: 5px;
+	overflow-y: scroll;
+	width: 50%;
+}
+
+#panel-editor-part-2 {
+	width: 50%;
+}
+
+#panel-editor-split {
+	border-left: 2px dotted lightgray;
+	margin: 0 10px;
+}
+
+.panel-editor-log {
+	background: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px grey;
+    padding: 10px;
+    margin: 15px 5px;
+}
+
+.panel-editor-log-del {
+	color: red;
+	cursor: pointer;
+	display: none;
+	float: right;
+}
+
+.panel-editor-log-character {
+	color: royalblue;
+	margin-bottom: 5px;
+}
+
+.panel-editor-log-text {
+	margin-bottom: 5px;
+	overflow-wrap: anywhere;
+}
+
+.panel-editor-label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.panel-editor-input {
+	background-color: white;
+	border: 2px solid black;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 100%;
+}
+
+.panel-editor-textarea {
+	background-color: white;
+	border: 2px solid black;
+	height: 100px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 100%;
+}
+
+#panel-editor-box-2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 0;
+    text-align: center;
+}
+
+#panel-editor-box-3 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    text-align: center;
+}
